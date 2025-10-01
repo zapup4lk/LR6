@@ -2,6 +2,10 @@ import openpyxl
 import os
 
 
+'''
+Первое изменение для ЛР6
+'''
+
 def process_time_files(template_path, output_folder):
     os.makedirs(output_folder, exist_ok=True)
 
